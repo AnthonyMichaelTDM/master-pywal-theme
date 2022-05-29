@@ -1,0 +1,7 @@
+things to change for each theme:
+line 289 of ./sxhkd/sxhkdrc
+colors for various things are stored in the following locations:
+./theme.toml
+./polybar/scripts/rofi/colors.rasi
+./polybar/polybarbottom.config
+./polybar/polybartop.config
