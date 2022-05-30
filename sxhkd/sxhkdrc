@@ -136,8 +136,8 @@ super + shift + KP_Enter
 #	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
 
 #reload sxhkd: #removed because it disabled the entire keyboard
-super + shift + s
-	pkill -USR1 -x sxhkd
+#super + shift + s
+#	pkill -USR1 -x sxhkd
 
 
 #################################################################

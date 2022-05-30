@@ -26,6 +26,7 @@ focus_new_windows = true
 ##### Key Binds #####
 #####################
 #list of available keys: https://github.com/leftwm/leftwm/blob/main/leftwm-core/src/utils/xkeysym_lookup.rs#L46
+#keybinds for c and = don't work, figgure it out later
 ######################################################################
 ############################ Function keys ###########################
 [[keybind]]
@@ -377,7 +378,7 @@ modifier = ["modkey"]
 key = "space"
 
 [[keybind]]
-command = "TileToFloating"
+command = "ToggleFloating"
 modifier = ["modkey", "Shift"]
 key = "space"
 
