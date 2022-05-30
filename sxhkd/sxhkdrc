@@ -6,9 +6,9 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-# Brave
+# Firefox
 super + F1
-	brave
+	firefox
 
 # VScode
 super + F2
