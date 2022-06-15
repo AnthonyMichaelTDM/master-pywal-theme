@@ -249,14 +249,8 @@ key = "u"
 
 [[keybind]]
 command = "Execute"
-value = "setxkbmap -variant intl"
+value = "sh ~/.config/leftwm/themes/current/scripts/togglekeyboardvariant.sh"
 modifier = ["modkey"]
-key = "backslash"
-
-[[keybind]]
-command = "Execute"
-value = "setxkbmap -variant euro"
-modifier = ["modkey", "Shift"]
 key = "backslash"
 
 ######################################################################
