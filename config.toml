@@ -154,7 +154,7 @@ key = "9"
 
 [[keybind]]
 command = "Execute"
-value = "sh ~/.config/leftwm/themes/current/scripts/wal.sh"
+value = "~/.config/leftwm/themes/current/scripts/wal.sh"
 modifier = ["modkey"]
 key = "equal"
 
@@ -249,7 +249,7 @@ key = "u"
 
 [[keybind]]
 command = "Execute"
-value = "sh ~/.config/leftwm/themes/current/scripts/togglekeyboardvariant.sh"
+value = "~/.config/leftwm/themes/current/scripts/togglekeyboardvariant.sh"
 modifier = ["modkey"]
 key = "backslash"
 
@@ -335,7 +335,7 @@ key = "x"
 
 [[keybind]]
 command = "Execute"
-value = "urxvt -e vim ~/.config/leftwm/themes/current/config.toml ; sh ~/.config/leftwm/themes/current/scripts/copyConfigTOML.sh"
+value = "urxvt -e vim ~/.config/leftwm/themes/current/config.toml ; ~/.config/leftwm/themes/current/scripts/copyConfigTOML.sh"
 modifier = ["modkey"]
 key = "c"
 
