@@ -245,7 +245,7 @@ value = "CenterMain"
 modifier = ["modkey", "Shift"]
 key = "u"
 
-#iop[]\
+#iop[]
 
 [[keybind]]
 command = "Execute"

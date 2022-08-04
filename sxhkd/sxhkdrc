@@ -401,8 +401,8 @@ XF86MonBrightnessDown
 #########################
 
 #Hide polybar, redundant in config.toml
-super + b
-    polybar-msg cmd toggle
+#super + b
+#    polybar-msg cmd toggle
 
 #################################################################
 #################################################################
