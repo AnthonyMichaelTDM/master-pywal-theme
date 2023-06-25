@@ -12,7 +12,7 @@ contains all the wallpapers in backgrounds, and allows you to cycle through them
 - [pywal](https://github.com/dylanaraps/pywal)
 
 ## Installation
-
+### without leftwm-theme
 1. Install all required dependencies
 2. Make a copy of this project in your themes folder
 

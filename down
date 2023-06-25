@@ -17,3 +17,7 @@ pkill conky
 pkill dunst
 pkill sxhkd
 pkill volumeicon
+pkill nm-applet
+pkill pamac-tray
+pkill blueberry-tray
+pkill xfce4-clipman

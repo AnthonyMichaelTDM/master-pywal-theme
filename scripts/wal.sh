@@ -4,9 +4,9 @@ if [ -x "$(command -v wal)" ]; then
   ### Check if template dir exists, then put template in its proper place
   if [ ! -d $HOME/.config/wal/templates ] ; then
     mkdir $HOME/.config/wal/templates &&
-    cp $HOME/.config/leftwm/themes/current/template-wal/color.leftwm-theme.toml  $HOME/.config/wal/templates
-  elif [ ! -f $HOME/.config/wal/templates/color.leftwm-theme.toml ] ; then
-    cp $HOME/.config/leftwm/themes/current/template-wal/color.leftwm-theme.toml  $HOME/.config/wal/templates
+    cp $HOME/.config/leftwm/themes/current/template-wal/color.leftwm-theme.ron  $HOME/.config/wal/templates
+  elif [ ! -f $HOME/.config/wal/templates/color.leftwm-theme.ron ] ; then
+    cp $HOME/.config/leftwm/themes/current/template-wal/color.leftwm-theme.ron  $HOME/.config/wal/templates
   fi
 
   #use pywal to generate color schemes for almost everything

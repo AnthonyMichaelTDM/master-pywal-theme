@@ -26,12 +26,13 @@ fi
 # diversity of apps to start
 nm-applet &
 pamac-tray &
-xfce4-power-manager &
+# xfce4-power-manager &
 numlockx on &
 blueberry-tray &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 volumeicon &
+xfce4-clipman &
 #conky -c ~/.config/leftwm/system-overview &
 #nitrogen --restore &
 #caffeine &
@@ -54,8 +55,8 @@ elif [ -x "$(command -v compton)" ]; then
   compton --config $HOME/.config/leftwm/themes/current/compton.conf &> /dev/null &
 fi
 
-#Set the theme.toml config
-echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+#Set the theme.ron config
+echo "LoadTheme $SCRIPTPATH/theme.ron" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
 #mainbar
 index=0

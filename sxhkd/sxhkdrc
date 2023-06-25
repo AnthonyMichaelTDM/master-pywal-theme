@@ -38,9 +38,9 @@ super + F7
 super + F8
     thunar
 
-#git kraken
+#Parole
 super + F9
-    gitkraken
+    parole
 
 #Discord
 super + F10
@@ -327,7 +327,7 @@ ctrl + Print
 
 #screenshot a region
 super + shift + s
-     xfce4-screenshooter -r
+     xfce4-screenshooter -r -c
 
 #Gnome-Screenshot
 #ctrl + shift + Print
@@ -390,11 +390,11 @@ XF86AudioStop
 
 #Brightness up
 XF86MonBrightnessUp
-    xbacklight -inc 10
+    brightnessctl set +10 # use xbacklight if this doesn't work
 
 #Brightness down
 XF86MonBrightnessDown
-    xbacklight -dec 10
+    brightnessctl set 10-
 
 #########################
 #        POLYBAR        #

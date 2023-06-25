@@ -7,8 +7,8 @@
     default_height: None,
     always_float: None,
     gutter: None,
-    default_border_color: "{background}",
-    floating_border_color: "{color6}",
-    focused_border_color: "{foreground}",
+    default_border_color: "#bd93f9",
+    floating_border_color: "#bd93f9",
+    focused_border_color: "#ff79c6",
     on_new_window: None,
 )
