@@ -2,8 +2,7 @@
 
 ### variables
 layout="us"
-variant1="euro" # default 
-variant2="intl"
+variant="intl"
 
 curr_layout="$(setxkbmap -query | sed -n -e 's/^layout: \+//p')"
 curr_variant="$(setxkbmap -query | sed -n -e 's/^variant: \+//p')"
@@ -13,10 +12,10 @@ if [[ $curr_layout != $layout ]]; then
 fi
 
 ### figure out the current keyboard variant
-if [[ $curr_variant == $variant1 ]]; then
-	setxkbmap -variant $variant2
+if [[ $curr_variant == $variant ]]; then
+	setxkbmap -layout $layout
 else
-	setxkbmap -variant $variant1
+	setxkbmap -variant $variant
 fi
 
 echo done
