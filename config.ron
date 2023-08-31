@@ -173,7 +173,7 @@
         // z
         (command: Execute, value: "archlinux-logout", 
             modifier: ["modkey"], key: "x"),
-        (command: Execute, value: "urxvt -e vim ~/.config/leftwm/themes/current/config.ron ; ~/.config/leftwm/themes/current/scripts/copyConfigTOML.sh",
+        (command: Execute, value: "urxvt -e vim ~/.config/leftwm/themes/current/config.ron ; ~/.config/leftwm/themes/current/scripts/copyConfigRON.sh",
             modifier: ["modkey"], key: "c"),
         (command: Execute, value: "killall conky", 
             modifier: ["modkey", "Shift"], key: "c"),
