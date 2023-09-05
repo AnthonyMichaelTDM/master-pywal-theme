@@ -56,7 +56,7 @@ elif [ -x "$(command -v compton)" ]; then
 fi
 
 #Set the theme.ron config
-echo "LoadTheme $SCRIPTPATH/theme.ron" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+echo "LoadTheme $SCRIPTPATH/theme.ron" > $XDG_RUNTIME_DIR/leftwm/commands-0.pipe
 
 #mainbar
 index=0
