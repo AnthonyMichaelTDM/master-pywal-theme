@@ -125,19 +125,7 @@
             modifier: ["modkey"], key: "w"),
         (command: SoftReload, value: "", 
             modifier: ["modkey", "Shift"], key: "r"),
-        (command: SetLayout, value: "MainAndVertStack", 
-            modifier: ["modkey"], key: "t"),
-        (command: SetLayout, value: "MainAndHorizontalStack",
-            modifier: ["modkey", "Shift"], key: "t"),
-        (command: SetLayout, value: "LeftWiderRightStack",
-            modifier: ["modkey"], key: "y"),
-        (command: SetLayout, value: "Monocle",
-            modifier: ["modkey", "Shift"], key: "y"),
-        (command: SetLayout, value: "Fibonacci",
-            modifier: ["modkey"], key: "u"),
-        (command: SetLayout, value: "CenterMain",
-            modifier: ["modkey", "Shift"], key: "u"),
-        // iop[]
+        // tyuiop[]
         (command: Execute, value: "~/.config/leftwm/themes/current/scripts/togglekeyboardvariant.sh",
             modifier: ["modkey"], key: "backslash"),
 
