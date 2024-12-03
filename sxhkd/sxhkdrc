@@ -208,10 +208,6 @@ ctrl + alt + r
 #ctrl + alt + s
 #   spotify
 
-#alacritty
-ctrl + alt + Return
-    alacritty
-
 #urxvt
 ctrl + alt + t
     urxvt
@@ -224,6 +220,9 @@ ctrl + alt + t
 #ctrl + alt + a
 #    xfce4-appfinder
 
+#alacritty
+ctrl + alt + Return
+    alacritty
 
 #Keyboard dependent
 #alacritty
@@ -333,9 +332,9 @@ super + shift + s
 #ctrl + shift + Print
 #     gnome-screenshot -i
 
-#Flameshot
-#super + ctrl + Print
-#    flameshot gui
+Flameshot
+super + ctrl + Print
+    flameshot gui
 
 
 #################################################################
@@ -373,19 +372,19 @@ XF86AudioMute
 #mpc stop
 
 #PLAY
-XF86AudioPlay
+~XF86AudioPlay
     playerctl play-pause
 
 #Next
-XF86AudioNext
+~XF86AudioNext
     playerctl next
 
 #previous
-XF86AudioPrev
+~XF86AudioPrev
     playerctl previous
 
 #Stop
-XF86AudioStop
+~XF86AudioStop
     playerctl stop
 
 #Brightness up
